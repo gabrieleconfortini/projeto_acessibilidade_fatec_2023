@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Inicio</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
+    
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Currículo</h1>
+            <p class="apresentacao__conteudo__texto">
+                Meu nome é Gabriele Confortini Batista, tenho 20 anos sou Brasileira natural de Taquaritinga/SP.
+            </p>
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                  <div class="vw-plugin-top-wrapper"></div>
+                </div>
+              </div>
+              <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+              <script>
+                new window.VLibras.Widget({
+                    rootPah: '/app',
+                    personalization: 'https://vlibras.gov.br/config/default_logo.json',
+                    opacity: 0.5,
+                    position: 'L',
+                    avatar: 'random',
+                });
+              </script>
+            <h2 class="apresentacao__conteudo__titulo">Experiências</h2>
+            <ul class="apresentacao__conteudo__texto">
+                <li> Jú Moda Praia | Itanhaém/SP (2017 - 2018) - Atendente na área de vendas, acessórios de praia em geral. </li><br>
+                <li> Toy By Toys | Taquaritinga/SP (dezembro 2021) - Atendente na área de vendas de brinquedos. </li><br>
+                <li> Gelateria Borelli | Taquaritinga/SP (janeiro-agosto 2022) - Atendente na área de vendas: gelatos e cafés.</li>
+            </ul>
+            </p>
+            <h2 class="apresentacao__conteudo__titulo">Estudos</h2>
+            <div class="apresentacao__conteudo__texto">
+            <ul class="apresentacao__conteudo__texto">
+                <li> Curso Sistema para Internet - Fatec Taquaritinga (Graduação em andamento/3º Semestre). </li><br>
+                <li> Curso Iniciante em programação - Alura Cursos <a href="https://drive.google.com/file/d/123T6a2AgRLX30W9O6vtV7j9XAzCsguzR/view?usp=drive_link">com certificado </a></li>
+                <li> Curso eMAG Desenvolvedor - Enap <a href="https://drive.google.com/file/d/1T5UYl-WBOiKb2eWoCJBa2QqqEoKEPj3S/view">com certificado </a></li>
+            </ul>
+            </div>    
+        </section>
+        <img class="apresentacao__imagem" src="./assets/foto01.jpg" alt="Foto da gabriele confortini">
+    </main> 
+
+    <footer class="rodape">
+        <p>Desenvolvido por gabriele confortini.</p>
+    </footer>
+</body>
+</html>

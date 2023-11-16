@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Inicio</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de
+                qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Gabriele Confortini, desenvolvedora Front-end com especialidade em HTML e CSS.
+                Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+                <div vw class="enabled">
+                    <div vw-access-button class="active"></div>
+                    <div vw-plugin-wrapper>
+                      <div class="vw-plugin-top-wrapper"></div>
+                    </div>
+                  </div>
+                  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                  <script>
+                    new window.VLibras.Widget({
+                        rootPah: '/app',
+                        personalization: 'https://vlibras.gov.br/config/default_logo.json',
+                        opacity: 0.5,
+                        position: 'L',
+                        avatar: 'random',
+                    });
+                  </script>
+        <div class="apresentacao__links">
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+            <a class="apresentacao__links__navegacao" href="https://github.com/gabrieleconfortini">
+                GitHub
+            </a>
+            <a class="apresentacao__links__navegacao" href="https://instagram.com/gabrieleconfortini">
+                Instagram
+            </a>
+            <a class="apresentacao__links__navegacao" href="https://linkedin.com/in/gabriele-c-301a28200/">
+                Linkedin
+            </a>
+        </div>
+        </section>
+            <img class="apresentacao__imagem" src="./assets/foto01.jpg" alt="Foto da gabriele confortini">
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por gabriele confortini.</p>
+    </footer>
+
 </body>
+
 </html>

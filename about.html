@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Inicio</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+            <p class="apresentacao__conteudo__texto">Olá, seja bem vindo ao meu perfil profissional. <br> Meu nome é Gabriele tenho 20 anos, nasci na cidade de Taquaritinga, interior de SP. Morei em várias cidades, até mesmo no litoral. Atualmente resido no município de Dobrada. <br> Sou estudante de tecnologia na Instituição de Ensino Fatec Taquaritinga, estou cursando Sistema para Internet...
+            </p>
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                  <div class="vw-plugin-top-wrapper"></div>
+                </div>
+              </div>
+              <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+              <script>
+                new window.VLibras.Widget({
+                    rootPah: '/app',
+                    personalization: 'https://vlibras.gov.br/config/default_logo.json',
+                    opacity: 0.5,
+                    position: 'L',
+                    avatar: 'random',
+                });
+              </script>
+            <p class="apresentacao__conteudo__texto">Meu sonho de carreira era ser Arquiteta Urbanista mas por meios de comunicação, curiosidade e interresse sobre a tecnologia atual, entrei para esse ramo com o intuito de abranger conhecimentos e aprender como funcionam por trás das telas celular/computador.<br>
+Sou novata em programação e estou aprendendo a desenvolver Páginas Web para me conectar com a área de T.I, e assim ser autodidata para oportunidades que venham a surgir... <br> Meu plano carreira hoje é ajudar empresas em seus projetos por meio do desenvolvimento web para maior divulgações do seu próprio negócio.
+            </p>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/foto01.jpg" alt="Foto da gabriele confortini">
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por gabriele confortini.</p>
+    </footer>
+</body>
+</html>
